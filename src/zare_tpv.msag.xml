@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZARE_TPV</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Mensajes programas TPV</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Usuario sin asignación a tienda</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Cierre FFin duplicado en el doc.FI &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>El proveedor &amp; no tiene indicado precio de compra para el artículo &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>El número de albarán &amp; ya existe en una operación liberada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>El articulo &amp; tiene un precio de valoracion superior a 500€</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Revise si el abono ya se ha creado bajo el documento logístico nº &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>El abono ya se ha contabilizado bajo el documento financiero nº &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>La factura ya se ha creado bajo el documento logístico nº &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>La factura ya se ha contabilizado bajo el documento financiero nº &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Se ha revertido la suspensión de los artículos selecc. en MARA/MARC/MARD</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Existen errores revirtiendo la suspensión de los artículos en MARA</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Existen errores revirtiendo la suspensión de los artículos en MARC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Existen errores revirtiendo la suspensión de los artículos en MARD</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Existe reg.cond. para org.compras &amp;, pero no para la org. ventas &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Existe reg.cond. para org.ventas &amp;, pero no para la org. compras &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZARE_TPV</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>El artículo &amp; se ha catalogado en el surtido &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

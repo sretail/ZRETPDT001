@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Grupo de funciones Carga de artículos</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZRETPDT001TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZRETPDT001</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_CATALOGAR_SINGLE</FUNCNAME>
+     <SHORT_TEXT>Catalogación de articulo en tienda</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>PE_MATNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PE_DATAB</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DATAB</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PE_DATBI</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DATBI</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PE_CATSURT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>PS_CATALOGAR_OK</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFLAG</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>PS_DOCNUM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EDI_DOCNUM</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_RETURN</PARAMETER>
+       <DBSTRUCT>BDCMSGCOLL</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_TIENDAS</PARAMETER>
+       <DBSTRUCT>ZSTIENDAS</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PE_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número de artículo</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PE_DATAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Fecha inicio validez</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PE_DATBI</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Fecha fin validez</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PE_CATSURT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Indicador de una posición</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PS_CATALOGAR_OK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nuevos valores de entrada</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PS_DOCNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número del IDOC</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Acumular mensajes en sistema SAP</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_TIENDAS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tiendas</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,2804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Módulos pantalla mtro.art.propio usu.</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLZRETPDTT02</SOBJ_NAME>
+   </INCLUDES>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Die Bearbeitung wird verlassen</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Aktuelle Bon-/Etikettentexte</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>      vorher sichern ?</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Bon-/Etikettentext beenden</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Sprache</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>nicht nutzbar auf Rechner</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>030</KEY>
+       <ENTRY>Löschen Mengeneinheit</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>031</KEY>
+       <ENTRY>Möchten Sie die Mengeneinheit</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>032</KEY>
+       <ENTRY>trotzdem löschen?</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>033</KEY>
+       <ENTRY>Zur Mengeneinheit wurden bereits</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>034</KEY>
+       <ENTRY>Texte erfaßt.</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>035</KEY>
+       <ENTRY>Zur Mengeneinheit wurden bereits</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>036</KEY>
+       <ENTRY>Layoutbausteine erfaßt.</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>037</KEY>
+       <ENTRY>Zur Mengeneinheit wurden bereits</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>038</KEY>
+       <ENTRY>EANs erfaßt.</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>039</KEY>
+       <ENTRY>Zur Mengeneinheit wurde bereits</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>040</KEY>
+       <ENTRY>eine EAN erfaßt.</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>041</KEY>
+       <ENTRY>Die Mengeneinheit wird noch als</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>042</KEY>
+       <ENTRY>Bestellmengeneinheit verwendet.</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>043</KEY>
+       <ENTRY>Die Mengeneinheit wird in Info-</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>044</KEY>
+       <ENTRY>sätzen als BestellME verwendet.</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>045</KEY>
+       <ENTRY>sätzen als BestellpreisME verwendet.</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>050</KEY>
+       <ENTRY>Ändern Bestellmengeneinheit</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>051</KEY>
+       <ENTRY>Möchten Sie die Mengeneinheit</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>052</KEY>
+       <ENTRY>auch in den Infosätzen ändern?</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>053</KEY>
+       <ENTRY>Ändern BestellpreisME</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>063</KEY>
+       <ENTRY>Ungeplant. Verbrauch</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>064</KEY>
+       <ENTRY>Gesamtverbrauch</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>065</KEY>
+       <ENTRY>Korrigierter Wert</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>070</KEY>
+       <ENTRY>Löschen EAN</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>071</KEY>
+       <ENTRY>Alle Lieferantenbezüge müssen mit-</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>072</KEY>
+       <ENTRY>gelöscht werden!  EAN löschen?</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>073</KEY>
+       <ENTRY>Ändern EAN</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>074</KEY>
+       <ENTRY>Alle Lieferantenbezüge müssen mit-</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>075</KEY>
+       <ENTRY>geändert werden!  EAN ändern?</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>076</KEY>
+       <ENTRY>Text formatiert</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>077</KEY>
+       <ENTRY>Sprache selektieren</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>078</KEY>
+       <ENTRY>Sprache</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>079</KEY>
+       <ENTRY>Sprache des dargestellten Textes</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>080</KEY>
+       <ENTRY>Zukünftige Schichtung</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>081</KEY>
+       <ENTRY>Laufende Schichtung</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>082</KEY>
+       <ENTRY>Vergangene Schichtung</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>083</KEY>
+       <ENTRY>Zukünftige Periode</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>084</KEY>
+       <ENTRY>Laufende Periode</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>085</KEY>
+       <ENTRY>Vergangene Periode</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>086</KEY>
+       <ENTRY>Zukünftiges Geschäftsjahr</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>087</KEY>
+       <ENTRY>Laufendes Geschäftsjahr</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>088</KEY>
+       <ENTRY>Vergangenes Geschäftsjahr</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>089</KEY>
+       <ENTRY>Zukünftige Bewertungsvariante</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>090</KEY>
+       <ENTRY>Laufende Bewertungsvariante</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>091</KEY>
+       <ENTRY>Vergangene Bewertungsvariante</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>092</KEY>
+       <ENTRY>Zukünftige Kalkulationsversion</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>093</KEY>
+       <ENTRY>Laufende Kalkulationsversion</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>094</KEY>
+       <ENTRY>Vergangene Kalkulationsversion</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>095</KEY>
+       <ENTRY>Zukünftiger Planpreis</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>096</KEY>
+       <ENTRY>Laufender Planpreis</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>097</KEY>
+       <ENTRY>Vergangener Planpreis</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>098</KEY>
+       <ENTRY>Laufender Standardpreis</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>100</KEY>
+       <ENTRY>1. Ladehilfsmittelmenge</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>101</KEY>
+       <ENTRY>2. Ladehilfsmittelmenge</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>102</KEY>
+       <ENTRY>3. Ladehilfsmittelmenge</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>104</KEY>
+       <ENTRY>Mengeneinheit zur 1. Ladehilfsmittelmenge</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>105</KEY>
+       <ENTRY>Mengeneinheit zur 2. Ladehilfsmittelmenge</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>106</KEY>
+       <ENTRY>Mengeneinheit zur 3. Ladehilfsmittelmenge</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>107</KEY>
+       <ENTRY>1. Lagereinheitentyp</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>108</KEY>
+       <ENTRY>2. Lagereinheitentyp</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>109</KEY>
+       <ENTRY>3. Lagereinheitentyp</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>110</KEY>
+       <ENTRY>Sollen die Werte auf die Varianten</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>111</KEY>
+       <ENTRY>durchkopiert werden, wenn keine</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>112</KEY>
+       <ENTRY>Abweichungen bestehen?</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>113</KEY>
+       <ENTRY>Variantenanpassung</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>114</KEY>
+       <ENTRY>Bei &apos;NEIN&apos; werden Abweichungen zwischen</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>115</KEY>
+       <ENTRY>Sammelartikel und Variante erzeugt!</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>250</KEY>
+       <ENTRY>Segmentspezifische Werte existiert</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>251</KEY>
+       <ENTRY>Keine spezifischen Segment Werte</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>You are about to exit.</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Curr. till rcpt/label texts</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>      Save first?</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Exit till rcpt/label text</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Lang.</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>cannot be used on PC</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>030</KEY>
+       <ENTRY>Delete UoM</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>031</KEY>
+       <ENTRY>Do you want to delete the</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>032</KEY>
+       <ENTRY>UoM anyway?</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>033</KEY>
+       <ENTRY>Texts have already been entered</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>034</KEY>
+       <ENTRY>for the unit.</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>035</KEY>
+       <ENTRY>Layout modules have already been</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>036</KEY>
+       <ENTRY>entered for the unit.</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>037</KEY>
+       <ENTRY>EANs have already been entered</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>038</KEY>
+       <ENTRY>for the unit</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>039</KEY>
+       <ENTRY>An EAN has already been entered</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>040</KEY>
+       <ENTRY>for the unit.</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>041</KEY>
+       <ENTRY>The unit of measure is still</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>042</KEY>
+       <ENTRY>used as the order unit.</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>043</KEY>
+       <ENTRY>The unit of measure is used as</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>044</KEY>
+       <ENTRY>the order unit in info records</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>045</KEY>
+       <ENTRY>the PO price unit in info records</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>050</KEY>
+       <ENTRY>Change order unit</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>051</KEY>
+       <ENTRY>Do you want to change the</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>052</KEY>
+       <ENTRY>unit in the info records too?</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>053</KEY>
+       <ENTRY>Change PO price unit</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>063</KEY>
+       <ENTRY>UnplannedConsumption</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>064</KEY>
+       <ENTRY>Tot.consumption</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>065</KEY>
+       <ENTRY>Corrected value</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>070</KEY>
+       <ENTRY>Delete EAN</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>071</KEY>
+       <ENTRY>All vendor assignments also have</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>072</KEY>
+       <ENTRY>to be deleted. Delete EAN?</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>073</KEY>
+       <ENTRY>Change EAN</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>074</KEY>
+       <ENTRY>All vendor assignments also have</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>075</KEY>
+       <ENTRY>to be changed. Change EAN?</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>076</KEY>
+       <ENTRY>Text formatted</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>077</KEY>
+       <ENTRY>Select Language</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>078</KEY>
+       <ENTRY>Language</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>079</KEY>
+       <ENTRY>Language of Displayed Text</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>080</KEY>
+       <ENTRY>Future Split</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>081</KEY>
+       <ENTRY>Current Split</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>082</KEY>
+       <ENTRY>Previous Split</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>083</KEY>
+       <ENTRY>Future Period</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>084</KEY>
+       <ENTRY>Current Period</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>085</KEY>
+       <ENTRY>Previous Period</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>086</KEY>
+       <ENTRY>Future Fiscal Year</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>087</KEY>
+       <ENTRY>Current Fiscal Year</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>088</KEY>
+       <ENTRY>Previous Fiscal Year</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>089</KEY>
+       <ENTRY>Future Valuation Variant</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>090</KEY>
+       <ENTRY>Current Valuation Variant</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>091</KEY>
+       <ENTRY>Previous Valuation Variant</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>092</KEY>
+       <ENTRY>Future Calculation Version</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>093</KEY>
+       <ENTRY>Current Calculation Version</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>094</KEY>
+       <ENTRY>Previous Calculation Version</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>095</KEY>
+       <ENTRY>Future Planned Price</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>096</KEY>
+       <ENTRY>Current Planned Price</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>097</KEY>
+       <ENTRY>Previous Planned Price</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>098</KEY>
+       <ENTRY>Current Standard Price</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>100</KEY>
+       <ENTRY>Loading Equipment Quantity 1</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>101</KEY>
+       <ENTRY>Loading Equipment Quantity 2</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>102</KEY>
+       <ENTRY>Loading Equipment Quantity 3</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>104</KEY>
+       <ENTRY>Unit of Measure for Loading Equipment Quantity 1</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>105</KEY>
+       <ENTRY>Unit of Measure for Loading Equipment Quantity 2</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>106</KEY>
+       <ENTRY>Unit of Measure for Loading Equipment Quantity 3</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>107</KEY>
+       <ENTRY>Storage Unit Type 1</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>108</KEY>
+       <ENTRY>Storage Unit Type 2</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>109</KEY>
+       <ENTRY>Storage Unit Type 3</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>110</KEY>
+       <ENTRY>Do you want to copy the values to</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>111</KEY>
+       <ENTRY>even if</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>112</KEY>
+       <ENTRY>there are variances?</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>113</KEY>
+       <ENTRY>Variant Adjustment</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>114</KEY>
+       <ENTRY>If you choose &apos;No&apos;, variances between</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>115</KEY>
+       <ENTRY>gen. art. and variant are generated</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>250</KEY>
+       <ENTRY>Segment-specific values exist</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>251</KEY>
+       <ENTRY>No segment-specific values</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>c</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Es finalitzarà el tractament</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Desar textos rebut/etiquetes</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>actuals previament?</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Sortir de txt.rebut/etiq.</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Idioma</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>no es pot utilitzar al PC</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>030</KEY>
+       <ENTRY>Suprimir un.mesura</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>031</KEY>
+       <ENTRY>Voleu suprimir la unitat de</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>032</KEY>
+       <ENTRY>mesura igualment?</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>033</KEY>
+       <ENTRY>Ja s&apos;han registrat textos per a</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>034</KEY>
+       <ENTRY>la un.mesura</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>035</KEY>
+       <ENTRY>Ja s&apos;han registrat mòduls de</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>036</KEY>
+       <ENTRY>disposició p.un.mesura</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>037</KEY>
+       <ENTRY>Ja s&apos;han registrat EANs per a</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>038</KEY>
+       <ENTRY>la un.mesura</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>039</KEY>
+       <ENTRY>Ja s&apos;ha registrat un EAN per a</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>040</KEY>
+       <ENTRY>la un.mesura</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>041</KEY>
+       <ENTRY>La unitat de mesura es torna a</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>042</KEY>
+       <ENTRY>utilitzar com un.mesura comanda</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>043</KEY>
+       <ENTRY>La unitat de mesura s&apos;utilitza</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>044</KEY>
+       <ENTRY>com a UM de comanda en reg.info</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>045</KEY>
+       <ENTRY>com a UM de preu comanda en reg.info</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>050</KEY>
+       <ENTRY>Modificar un.mesura comanda</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>051</KEY>
+       <ENTRY>Voleu suprimir la unitat de</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>052</KEY>
+       <ENTRY>mesura dels registres info?</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>053</KEY>
+       <ENTRY>Modif.UM preu comanda</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>063</KEY>
+       <ENTRY>Consum no planejat</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>064</KEY>
+       <ENTRY>Consum total</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>065</KEY>
+       <ENTRY>Valor corregit</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>070</KEY>
+       <ENTRY>Supr.EAN</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>071</KEY>
+       <ENTRY>S&apos;han de suprimir referències a</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>072</KEY>
+       <ENTRY>proveïdors (tot.). Supr.EAN?</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>073</KEY>
+       <ENTRY>Modif.EAN</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>074</KEY>
+       <ENTRY>S&apos;han de modificar referències a</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>075</KEY>
+       <ENTRY>proveïdors (tot.). Modif.EAN?</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>076</KEY>
+       <ENTRY>Text formatejat</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>077</KEY>
+       <ENTRY>Seleccionar idioma</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>078</KEY>
+       <ENTRY>Idioma</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>079</KEY>
+       <ENTRY>Idioma del text representat</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>080</KEY>
+       <ENTRY>Estratificació futura</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>081</KEY>
+       <ENTRY>Estratificació actual</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>082</KEY>
+       <ENTRY>Estratificació passada</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>083</KEY>
+       <ENTRY>Període futur</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>084</KEY>
+       <ENTRY>Període actual</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>085</KEY>
+       <ENTRY>Període passat</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>086</KEY>
+       <ENTRY>Exercici futur</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>087</KEY>
+       <ENTRY>Exercici actual</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>088</KEY>
+       <ENTRY>Exercici passat</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>089</KEY>
+       <ENTRY>Variant de valoració futura</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>090</KEY>
+       <ENTRY>Variant de valoració actual</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>091</KEY>
+       <ENTRY>Variant de valoració passada</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>092</KEY>
+       <ENTRY>Versió de càlcul del cost futura</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>093</KEY>
+       <ENTRY>Versió de càlcul del cost actual</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>094</KEY>
+       <ENTRY>Versió de càlcul del cost passada</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>095</KEY>
+       <ENTRY>Preu pla futur</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>096</KEY>
+       <ENTRY>Preu pla actual</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>097</KEY>
+       <ENTRY>Preu pla anterior</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>098</KEY>
+       <ENTRY>Preu estàndard actual</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>100</KEY>
+       <ENTRY>Primera quantitat de mitjans auxiliars de càrrega</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>101</KEY>
+       <ENTRY>Segona quantitat de mitjans auxiliars de càrrega</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>102</KEY>
+       <ENTRY>Tercera quantitat de mitjans auxiliars de càrrega</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>104</KEY>
+       <ENTRY>Unitat de mesura de primera quantitat de mitjans auxiliars de càrrega</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>105</KEY>
+       <ENTRY>Unitat de mesura de segona quantitat de mitjans auxiliars de càrrega</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>106</KEY>
+       <ENTRY>Unitat de mesura de tercera quantitat de mitjans auxiliars de càrrega</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>107</KEY>
+       <ENTRY>Primer tipus d&apos;unitat de magatzem</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>108</KEY>
+       <ENTRY>Segon tipus d&apos;unitat de magatzem</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>109</KEY>
+       <ENTRY>Tercer tipus d&apos;unitat de magatzem</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>110</KEY>
+       <ENTRY>Voleu copiar els valors a variants</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>111</KEY>
+       <ENTRY>si no existeixen</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>112</KEY>
+       <ENTRY>desviacions?</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>113</KEY>
+       <ENTRY>Ajustament variant</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>114</KEY>
+       <ENTRY>En cas de &quot;NO&quot;, es creen desviacions</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>115</KEY>
+       <ENTRY>entre articles genèrics i variants.</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>250</KEY>
+       <ENTRY>Existeixen valors específics de segment</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>251</KEY>
+       <ENTRY>Sense valors específics segment</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DYNPROS>
+    <item>
+     <HEADER>
+      <PROGRAM>SAPLZRETPDTT02</PROGRAM>
+      <SCREEN>0001</SCREEN>
+      <LANGUAGE>S</LANGUAGE>
+      <DESCRIPT>Módulo vacío</DESCRIPT>
+      <TYPE>I</TYPE>
+      <NEXTSCREEN>0000</NEXTSCREEN>
+      <SCREEN_GRP>DATE</SCREEN_GRP>
+      <LINES>001</LINES>
+      <COLUMNS>083</COLUMNS>
+     </HEADER>
+     <CONTAINERS>
+      <RPY_DYCATT>
+       <TYPE>SCREEN</TYPE>
+       <NAME>SCREEN</NAME>
+      </RPY_DYCATT>
+     </CONTAINERS>
+     <FIELDS>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>OKCODE</TYPE>
+       <TEXT>____________________</TEXT>
+       <LENGTH>020</LENGTH>
+       <VISLENGTH>020</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+      </RPY_DYFATC>
+     </FIELDS>
+     <FLOW_LOGIC>
+      <RPY_DYFLOW>
+       <LINE>PROCESS BEFORE OUTPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*                      Verarbeitung vor der Ausgabe</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>PROCESS AFTER INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*                      Verarbeitung nach der Eingabe</LINE>
+      </RPY_DYFLOW>
+     </FLOW_LOGIC>
+    </item>
+    <item>
+     <HEADER>
+      <PROGRAM>SAPLZRETPDTT02</PROGRAM>
+      <SCREEN>0002</SCREEN>
+      <LANGUAGE>S</LANGUAGE>
+      <DESCRIPT>Table Control Definitions: DO NOT DELETE</DESCRIPT>
+      <TYPE>N</TYPE>
+      <NEXTSCREEN>0002</NEXTSCREEN>
+      <LINES>022</LINES>
+      <COLUMNS>083</COLUMNS>
+     </HEADER>
+     <CONTAINERS>
+      <RPY_DYCATT>
+       <TYPE>SCREEN</TYPE>
+       <NAME>SCREEN</NAME>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_STEUERN</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_VERB</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>001</LINE>
+       <COLUMN>014</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_KTXT</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>001</LINE>
+       <COLUMN>027</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_LAY</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>007</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_BON</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>007</LINE>
+       <COLUMN>014</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_EAN</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>007</LINE>
+       <COLUMN>027</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_ME_8020</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>013</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_ME_8021</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>013</LINE>
+       <COLUMN>014</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_ME_8022</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>013</LINE>
+       <COLUMN>027</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_LONGTEXT</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>019</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>004</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+     </CONTAINERS>
+     <FIELDS>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>OKCODE</TYPE>
+       <TEXT>____________________</TEXT>
+       <LENGTH>020</LENGTH>
+       <VISLENGTH>020</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_STEUERN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-MATNR</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>018</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_STEUERN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-MATNR</NAME>
+       <ROLLING>X</ROLLING>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>040</LENGTH>
+       <VISLENGTH>018</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <CONV_EXIT>MATN1</CONV_EXIT>
+       <PARAM_ID>MAT</PARAM_ID>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_VERB</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-ERSDA</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>010</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_VERB</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-ERSDA</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>010</LENGTH>
+       <VISLENGTH>010</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>DATS</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_KTXT</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-ERNAM</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>012</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_KTXT</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-ERNAM</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>012</LENGTH>
+       <VISLENGTH>012</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_LAY</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-LAEDA</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>010</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_LAY</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-LAEDA</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>010</LENGTH>
+       <VISLENGTH>010</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>DATS</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_BON</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-AENAM</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>012</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_BON</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-AENAM</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>012</LENGTH>
+       <VISLENGTH>012</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_EAN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-VPSTA</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>015</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_EAN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-VPSTA</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>015</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8020</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-PSTAT</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>015</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8020</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-PSTAT</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>015</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8021</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>*MARA-LVORM</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>001</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+       <DICT_I_VAL>X</DICT_I_VAL>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8021</CONT_NAME>
+       <TYPE>CHECK</TYPE>
+       <NAME>MARA-LVORM</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>001</LENGTH>
+       <VISLENGTH>001</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+       <DICT_I_VAL>X</DICT_I_VAL>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8022</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-MATKL</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>009</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <FOREIGNKEY>X</FOREIGNKEY>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+       <DICT_I_FKY>X</DICT_I_FKY>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8022</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>*MARA-MTART</NAME>
+       <LINE>001</LINE>
+       <COLUMN>002</COLUMN>
+       <LENGTH>010</LENGTH>
+       <VISLENGTH>004</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>1</MODIFIC>
+       <FOREIGNKEY>X</FOREIGNKEY>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+       <DICT_I_FKY>X</DICT_I_FKY>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8022</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-MATKL</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>009</LENGTH>
+       <VISLENGTH>009</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <PARAM_ID>MKL</PARAM_ID>
+       <FOREIGNKEY>X</FOREIGNKEY>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+       <DICT_I_FKY>X</DICT_I_FKY>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8022</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-MTART</NAME>
+       <LINE>001</LINE>
+       <COLUMN>002</COLUMN>
+       <LENGTH>004</LENGTH>
+       <VISLENGTH>004</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <PARAM_ID>MTA</PARAM_ID>
+       <FOREIGNKEY>X</FOREIGNKEY>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+       <DICT_I_FKY>X</DICT_I_FKY>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_LONGTEXT</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-MBRSH</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>001</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <FOREIGNKEY>X</FOREIGNKEY>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+       <DICT_I_FKY>X</DICT_I_FKY>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_LONGTEXT</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-MBRSH</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>001</LENGTH>
+       <VISLENGTH>001</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <PARAM_ID>MTP</PARAM_ID>
+       <FOREIGNKEY>X</FOREIGNKEY>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+       <DICT_I_FKY>X</DICT_I_FKY>
+      </RPY_DYFATC>
+     </FIELDS>
+     <FLOW_LOGIC>
+      <RPY_DYFLOW>
+       <LINE>PROCESS BEFORE OUTPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_STEUERN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_VERB.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_KTXT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_LAY.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_BON.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_EAN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_ME_8020.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_ME_8021.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>loop with control tc_me_8022.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>endloop.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>loop with control tc_longtext.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>endloop.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>* MODULE STATUS_0002.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>PROCESS AFTER INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>* MODULE USER_COMMAND_0002.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_STEUERN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_VERB.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_KTXT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_LAY.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_BON.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_EAN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_ME_8020.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_ME_8021.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>loop with control tc_me_8022.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>endloop.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>loop with control tc_longtext.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>endloop.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+     </FLOW_LOGIC>
+    </item>
+    <item>
+     <HEADER>
+      <PROGRAM>SAPLZRETPDTT02</PROGRAM>
+      <SCREEN>9000</SCREEN>
+      <LANGUAGE>S</LANGUAGE>
+      <DESCRIPT>Datos ampliados PDT</DESCRIPT>
+      <TYPE>I</TYPE>
+      <NEXTSCREEN>0000</NEXTSCREEN>
+      <SCREEN_GRP>DATE</SCREEN_GRP>
+      <LINES>019</LINES>
+      <COLUMNS>110</COLUMNS>
+     </HEADER>
+     <CONTAINERS>
+      <RPY_DYCATT>
+       <TYPE>SCREEN</TYPE>
+       <NAME>SCREEN</NAME>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>CUST_CTRL</TYPE>
+       <NAME>C_MATNR_DESC</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>010</LINE>
+       <COLUMN>002</COLUMN>
+       <LENGTH>081</LENGTH>
+       <HEIGHT>009</HEIGHT>
+      </RPY_DYCATT>
+     </CONTAINERS>
+     <FIELDS>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>FRAME</TYPE>
+       <NAME>MARC01</NAME>
+       <TEXT>Otros_datos_(general)_____________________________________________________________</TEXT>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>083</LENGTH>
+       <VISLENGTH>083</VISLENGTH>
+       <HEIGHT>005</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <REQU_ENTRY>N</REQU_ENTRY>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-ZZMODELO</NAME>
+       <LINE>002</LINE>
+       <COLUMN>002</COLUMN>
+       <LENGTH>006</LENGTH>
+       <VISLENGTH>006</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <LABELLEFT>X</LABELLEFT>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-ZZMODELO</NAME>
+       <TEXT>________________________________________________________________________________________________________________________</TEXT>
+       <ROLLING>X</ROLLING>
+       <LINE>002</LINE>
+       <COLUMN>036</COLUMN>
+       <LENGTH>120</LENGTH>
+       <VISLENGTH>029</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>X</MODIFIC>
+       <UP_LOWER>X</UP_LOWER>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-ZZGRAD</NAME>
+       <TEXT>Gra.alcohól.</TEXT>
+       <ICON_QINFO>Graduación_alcohólica</ICON_QINFO>
+       <ICON_QSPEC>X</ICON_QSPEC>
+       <LINE>002</LINE>
+       <COLUMN>066</COLUMN>
+       <LENGTH>037</LENGTH>
+       <VISLENGTH>012</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>F</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <LABELLEFT>X</LABELLEFT>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-ZZGRAD</NAME>
+       <LINE>002</LINE>
+       <COLUMN>079</COLUMN>
+       <LENGTH>004</LENGTH>
+       <VISLENGTH>004</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-ZZANEXO1</NAME>
+       <TEXT>Anexo_1_(Talla/Medidas/Fragancia)</TEXT>
+       <LINE>003</LINE>
+       <COLUMN>002</COLUMN>
+       <LENGTH>033</LENGTH>
+       <VISLENGTH>033</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>F</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <LABELLEFT>X</LABELLEFT>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-ZZANEXO1</NAME>
+       <TEXT>________________________________________________________________________________________________________________________</TEXT>
+       <ROLLING>X</ROLLING>
+       <LINE>003</LINE>
+       <COLUMN>036</COLUMN>
+       <LENGTH>120</LENGTH>
+       <VISLENGTH>029</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>X</MODIFIC>
+       <UP_LOWER>X</UP_LOWER>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-ZZANEXO2</NAME>
+       <TEXT>Anexo_2_(Color/Composición)</TEXT>
+       <LINE>004</LINE>
+       <COLUMN>002</COLUMN>
+       <LENGTH>027</LENGTH>
+       <VISLENGTH>027</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>F</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <LABELLEFT>X</LABELLEFT>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-ZZANEXO2</NAME>
+       <TEXT>________________________________________________________________________________________________________________________</TEXT>
+       <ROLLING>X</ROLLING>
+       <LINE>004</LINE>
+       <COLUMN>036</COLUMN>
+       <LENGTH>120</LENGTH>
+       <VISLENGTH>029</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>X</MODIFIC>
+       <UP_LOWER>X</UP_LOWER>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>CHECK</TYPE>
+       <NAME>MARA-ZZDESCP</NAME>
+       <TEXT>Desc.permitido</TEXT>
+       <ICON_QINFO>Descuento_permitido</ICON_QINFO>
+       <ICON_QSPEC>X</ICON_QSPEC>
+       <LINE>004</LINE>
+       <COLUMN>067</COLUMN>
+       <LENGTH>039</LENGTH>
+       <VISLENGTH>016</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>F</MODIFIC>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>FRAME</TYPE>
+       <NAME>MARC04</NAME>
+       <TEXT>Otros_datos_(Datos_de_balanza)____________________________________________________</TEXT>
+       <LINE>006</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>083</LENGTH>
+       <VISLENGTH>083</VISLENGTH>
+       <HEIGHT>003</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <REQU_ENTRY>N</REQU_ENTRY>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-ZZDEPBAL</NAME>
+       <TEXT>Departamentro</TEXT>
+       <LINE>007</LINE>
+       <COLUMN>002</COLUMN>
+       <LENGTH>013</LENGTH>
+       <VISLENGTH>013</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>F</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <LABELLEFT>X</LABELLEFT>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-ZZDEPBAL</NAME>
+       <LINE>007</LINE>
+       <COLUMN>016</COLUMN>
+       <LENGTH>004</LENGTH>
+       <VISLENGTH>004</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>NUMC</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-ZZGRUBAL</NAME>
+       <TEXT>Grupo</TEXT>
+       <LINE>007</LINE>
+       <COLUMN>021</COLUMN>
+       <LENGTH>005</LENGTH>
+       <VISLENGTH>005</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>F</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <LABELLEFT>X</LABELLEFT>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-ZZGRUBAL</NAME>
+       <LINE>007</LINE>
+       <COLUMN>027</COLUMN>
+       <LENGTH>006</LENGTH>
+       <VISLENGTH>006</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>NUMC</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-ZZPLUBAL</NAME>
+       <TEXT>PLU</TEXT>
+       <LINE>007</LINE>
+       <COLUMN>034</COLUMN>
+       <LENGTH>003</LENGTH>
+       <VISLENGTH>003</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>F</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <LABELLEFT>X</LABELLEFT>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-ZZPLUBAL</NAME>
+       <LINE>007</LINE>
+       <COLUMN>040</COLUMN>
+       <LENGTH>006</LENGTH>
+       <VISLENGTH>006</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>NUMC</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-ZZCADBAL</NAME>
+       <TEXT>Días_cad.</TEXT>
+       <ICON_QINFO>Días_caducidad</ICON_QINFO>
+       <ICON_QSPEC>X</ICON_QSPEC>
+       <LINE>007</LINE>
+       <COLUMN>047</COLUMN>
+       <LENGTH>027</LENGTH>
+       <VISLENGTH>009</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>F</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <LABELLEFT>X</LABELLEFT>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-ZZCADBAL</NAME>
+       <LINE>007</LINE>
+       <COLUMN>057</COLUMN>
+       <LENGTH>003</LENGTH>
+       <VISLENGTH>003</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>NUMC</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>CHECK</TYPE>
+       <NAME>MARA-ZZMODPREC</NAME>
+       <TEXT>Mod.Prec.</TEXT>
+       <ICON_QINFO>Permitir_modificaciones_precio</ICON_QINFO>
+       <ICON_QSPEC>X</ICON_QSPEC>
+       <LINE>007</LINE>
+       <COLUMN>061</COLUMN>
+       <LENGTH>045</LENGTH>
+       <VISLENGTH>011</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>F</MODIFIC>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>CHECK</TYPE>
+       <NAME>MARA-ZZIMPING</NAME>
+       <TEXT>Imp.Ingr</TEXT>
+       <ICON_QINFO>Imprimir_ingredientes</ICON_QINFO>
+       <ICON_QSPEC>X</ICON_QSPEC>
+       <LINE>007</LINE>
+       <COLUMN>073</COLUMN>
+       <LENGTH>035</LENGTH>
+       <VISLENGTH>010</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>F</MODIFIC>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>FRAME</TYPE>
+       <NAME>MARC03</NAME>
+       <TEXT>Otros_datos_(descripciones)_______________________________________________________</TEXT>
+       <LINE>009</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>083</LENGTH>
+       <VISLENGTH>083</VISLENGTH>
+       <HEIGHT>011</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <REQU_ENTRY>N</REQU_ENTRY>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>OKCODE</TYPE>
+       <TEXT>____________________</TEXT>
+       <LENGTH>020</LENGTH>
+       <VISLENGTH>020</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+      </RPY_DYFATC>
+     </FIELDS>
+     <FLOW_LOGIC>
+      <RPY_DYFLOW>
+       <LINE>PROCESS BEFORE OUTPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  MODULE init_sub.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  MODULE get_daten_sub.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  MODULE feldauswahl.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  MODULE sonderfaus.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  MODULE sonfausw_in_fgruppen.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  MODULE fausw_bezeichnungen.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  MODULE feldhistorie.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  MODULE bildstatus.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>* MODULE ZUSREF_VORSCHLAGEN_B.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>* MODULE REFDATEN_VORSCHLAGEN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>* MODULE ZUSREF_VORSCHLAGEN_A.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  MODULE bezeichnungen_lesen.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  MODULE bezeichnungen_lesen_rt.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>  MODULE m_pbo_9000_get_data.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>*HGL ini modif 16.01.2019 tarea 547</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  MODULE alv.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*HGL fin modif 16.01.2019 tarea 547</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>*HGL ini modif 17.01.2019 tarea 547</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*Ya no utilizo el table control</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*&amp;SPWIZARD: PBO FLOW LOGIC FOR TABLECONTROL &apos;TC_MATNR_DESC&apos;</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*  MODULE TC_MATNR_DESC_CHANGE_TC_ATTR.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>**&amp;SPWIZARD: MODULE TC_MATNR_DESC_CHANGE_COL_ATTR.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*  LOOP AT   GIT_MATNR_DESC</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*       INTO GIT_MATNR_DESC</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*       WITH CONTROL TC_MATNR_DESC</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*       CURSOR TC_MATNR_DESC-CURRENT_LINE.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*    MODULE TC_MATNR_DESC_GET_LINES.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>**&amp;SPWIZARD:   MODULE TC_MATNR_DESC_CHANGE_FIELD_ATTR</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*  ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*HGL ini modif 17.01.2019 tarea 547</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  MODULE set_daten_sub.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>PROCESS AFTER INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>*HGL ini modif 17.01.2019 tarea 547</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*Ya no utilizo el table control</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*&amp;SPWIZARD: PAI FLOW LOGIC FOR TABLECONTROL &apos;TC_MATNR_DESC&apos;</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*  LOOP AT GIT_MATNR_DESC.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>*  FIELD git_matnr_desc-codformato MODULE m_pai_9000_val_codformato</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*                                      ON REQUEST.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*  CHAIN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*    FIELD git_matnr_desc-meinh.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*    FIELD git_matnr_desc-maktm_ean.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*    FIELD git_matnr_desc-maktm_gondola.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*    FIELD git_matnr_desc-codformato.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*    FIELD git_matnr_desc-codformatot.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*    MODULE tc_matnr_desc_modify ON CHAIN-REQUEST.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*  ENDCHAIN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>*  ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>  MODULE TC_MATNR_DESC_USER_COMMAND.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*&amp;SPWIZARD: MODULE TC_MATNR_DESC_CHANGE_TC_ATTR.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*&amp;SPWIZARD: MODULE TC_MATNR_DESC_CHANGE_COL_ATTR.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>*HGL fin modif 17.01.2019 tarea 547</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>  MODULE get_daten_sub.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>  FIELD: mara-zzmodelo,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>         mara-zzanexo1,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>         mara-zzanexo2,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>         mara-zzgrad,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>         mara-zzdescp,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>         mara-zzdepbal,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>         mara-zzgrubal,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>         mara-zzplubal,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>         mara-zzcadbal,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>         mara-zzimping,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>         mara-zzmodprec.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>  FIELD mara-zzdepbal MODULE m_9000_pai_validar_zzdepbal ON INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>  CHAIN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>    FIELD: mara-zzdepbal,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>           mara-zzgrubal.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>    MODULE m_9000_pai_validar_depgrubal ON CHAIN-INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  ENDCHAIN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>  CHAIN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>    FIELD: mara-zzdepbal,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>           mara-zzgrubal,</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>           mara-zzplubal.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>    MODULE m_9000_pai_val_depgruplubal ON CHAIN-INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  ENDCHAIN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>  FIELD mara-zzplubal MODULE m_9000_pai_val_zzplubal ON INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>  MODULE set_daten_sub.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>PROCESS ON VALUE-REQUEST.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  FIELD mara-zzdepbal  MODULE m_9000_povr_zzdepbal.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>  FIELD mara-zzgrubal  MODULE m_9000_povr_zzgrubal.</LINE>
+      </RPY_DYFLOW>
+     </FLOW_LOGIC>
+    </item>
+   </DYNPROS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

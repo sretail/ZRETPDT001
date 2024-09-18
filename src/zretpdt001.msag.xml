@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZRETPDT001</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Mensajes emitidos por ZRETPDT001</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No se encontraron articulos para cargar.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Informar los 3 primeros ficheros de carga.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Informar fichero de carga de artículos Lite</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Seleccionar al menos una linea procesable</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Acción cancelada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Artículo creado pero no catalogado (ningun idoc creado)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Artículo creado, catalogado pero no dado de alta en al menos 1 proveedor.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Artículo completamente creado correctamente.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Artículo creado pero no catalogado (Idoc LIKOND: &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Registro info proveedor &amp; creado correctamente.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Error alta registro info proveedor &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Error alta PVP para unidad &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>PVP unidad &amp; registrado correctamente.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>El código de formato &amp; no es válido.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Proveedor &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Descripción ticket &gt; 16 para EAN &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Descripción góndola &gt; 30 para EAN &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Grupo de artículos externo &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>EAN &amp; ya asignado en BBDD.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Artículo &amp; aparece más de una vez en excel datos básicos</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>El ean &amp; del artículo &amp; aparece más de una vez en excel UM.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Tipo de artículo &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Grupo de artículos &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Categoría de articulos &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Indicador de impuestos &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>El tipo de ean &amp; del ean &amp; del artículo no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>El código de formato &amp; del ean &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Organización de compras &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Proveedor &amp; no existe en organización de compras &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Moneda &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Org.Ventas &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Canal de ventas &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Fecha inicio pvp &gt; fecha fin pvp</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Fecha inicio precio compra anterior al día de hoy.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Fecha inicio precio venta anterior al día de hoy.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Excel &amp;, campo &amp; no informado</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Se ha informado UNICON pero no unidad formato</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Se ha informado unidad formato pero no UNICON</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>El departamento &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>El grupo &amp; no existe para el departamento &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Para asignar tecla es necesario especificar departamento y grupo.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>La tecla debe estar comprendida entre 1 y 999</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>La tecla &amp; ya está asignada al articulo &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Para asignar grupo previamente debe especificarse departamento</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>El ean &amp; del artículo &amp; aparece más de una vez en excel.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>El departamento-grupo de balanza no son válidos (&amp;-&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>El departamento de balanza no es válido (&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>El EAN &amp; no es de longitud 12, 13 o 14</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Ninguna tecla de balanza libre para el departamento &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>No se pudo determinar el Grupo de Compras para la Agrupación &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Registro info: Fecha desde &gt; Fecha fin</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Cantidad mínima pedido tiene que ser inferior a cantidad pedido estandar</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>PVP: Fecha desde &gt; Fecha Fin</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Datos básicos: Grupo de compras &amp; no existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Datos básicos: Marca &amp; no existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>EAN&apos;s UM&apos;s: Peso &amp; contiene 3 decimales.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>EAN&apos;s UM&apos;s: Longitud &amp; contiene 3 decimales.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>EAN&apos;s UM&apos;s: Ancho &amp; contiene 3 decimales.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>EAN&apos;s UM&apos;s: Altura &amp; contiene 3 decimales.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Reg.Info: Grupo de compras &amp; no existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>ID Precarga no informado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Ningún artículo es válido para precarga.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Artículos no válidos para precarga (no se tendrán en cuenta)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Precarga de artículos Completa con ID &amp; registrada en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>El EAN &amp; no es de longitud 13.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Datos básicos: Etiquetado energético &amp; no válido.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>DB: Artículo padre &amp; no existe en el excel como ZKIT-10</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>El digito de control del EAN no es correcto</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Datos básicos: StatMatTodosCe y su validez deben informarse a la vez.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPDT001</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Datos básicos: Stat.todas CDis y su validez deben informarse a la vez.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
